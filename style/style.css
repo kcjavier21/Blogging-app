@@ -56,8 +56,6 @@ header::after {
 }
 
 .main {
-    
-    height: 100px;
     margin-top: 32px;
     display: flex;
     justify-content: center;
@@ -70,8 +68,6 @@ header::after {
     padding-left: 16px;
     padding-right: 16px;    
 }
-
-
 
 
 .post {
@@ -160,7 +156,7 @@ header::after {
     padding: 5px 8px;
 }
 
-/*
+
 footer {
     min-height: 100px;
     background-color: #eaecee70;
@@ -171,4 +167,3 @@ footer {
     margin-top: 40px;
     font-size: 14px;
 }
-*/
