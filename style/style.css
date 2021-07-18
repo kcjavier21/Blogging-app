@@ -18,6 +18,7 @@ header {
     background-size: cover;
     background-position: center;
     position: relative; 
+    background-image: url(/assets/banner.png);
 }
 
 header > * {
@@ -36,8 +37,8 @@ header::after {
 
 
 .profile-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: white;
     border-radius: 50%;
     background-image: url(/assets/profile.png);
@@ -45,6 +46,7 @@ header::after {
 }
 
 .profile-name {
+    margin-top: 16px;
     font-size: 3em;
     font-weight: bold;
 }
@@ -58,6 +60,7 @@ header::after {
     margin-top: 32px;
     display: flex;
     justify-content: center;
+    min-height: 90vh; 
 }
 
 .main-container {
@@ -65,7 +68,19 @@ header::after {
     min-width: 600px;
     width: 100%;
     padding-left: 16px;
-    padding-right: 16px;    
+    padding-right: 16px;   
+    min-height: 90vh; 
+}
+
+
+.main-container button {
+    text-decoration: none;
+    border: 1px solid rgba(255, 124, 124, 1);
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin-top: 40px;
+    background: rgba(255, 124, 124, 1);
+    color: white;
 }
 
 
@@ -156,6 +171,8 @@ header::after {
 }
 
 
+
+
 footer {
     min-height: 100px;
     background-color: #eaecee70;
@@ -165,4 +182,7 @@ footer {
     align-items: center;
     margin-top: 40px;
     font-size: 14px;
+    /* position: absolute;
+    bottom: 0px;
+    width: 100%; */
 }
